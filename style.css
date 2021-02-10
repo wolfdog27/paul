@@ -1,7 +1,7 @@
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url("paul1.jpg");
+    background-image: url("assets/paul1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,3 +10,19 @@
   #sticky-footer {
     flex-shrink: none;
   }
+
+.social {
+display:flex;
+  justify-content: space-around;
+padding: 5%;
+}
+.fa-patreon:hover {
+    color: #df12cc !important;}
+.fa-instagram:hover {
+    color: #df12cc !important;}
+.fa-envelope:hover {
+    color: #df12cc !important;}
+.fa-facebook:hover {
+    color: #df12cc !important;}
+.fa-tiktok:hover {
+    color: #df12cc !important;}
