@@ -7,6 +7,25 @@
     background-repeat: no-repeat;
   }
 
+  .masthead2 {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url("assets/astrohead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .space {
+    height: 25vh;
+    background-image: url("assets/space.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
   #sticky-footer {
     flex-shrink: none;
   }
@@ -26,3 +45,4 @@ padding: 5%;
     color: #df12cc !important;}
 .fa-tiktok:hover {
     color: #df12cc !important;}
+
