@@ -46,3 +46,5 @@ padding: 5%;
 .fa-tiktok:hover {
     color: #df12cc !important;}
 
+
+    .dropdown-menu{ left: -100px !important; }
