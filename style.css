@@ -1,0 +1,12 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("paul1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  #sticky-footer {
+    flex-shrink: none;
+  }
