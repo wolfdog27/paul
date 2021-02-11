@@ -26,6 +26,16 @@
     background-repeat: no-repeat;
   }
 
+
+  .masthead4 {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url("assets/aboutheader.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .space {
     height: 25vh;
     background-image: url("assets/space.jpeg");
@@ -77,3 +87,5 @@ padding: 5%;
     color: black;
     font-size: 250%;
 }
+
+
