@@ -16,6 +16,16 @@
     background-repeat: no-repeat;
   }
 
+
+  .masthead3 {
+    height: 50vh;
+    min-height: 500px;
+    background-image: url("assets/bodyworkextended.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .space {
     height: 25vh;
     background-image: url("assets/space.jpeg");
@@ -23,6 +33,7 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
 
 
 
@@ -47,4 +58,22 @@ padding: 5%;
     color: #df12cc !important;}
 
 
-    .dropdown-menu{ left: -100px !important; }
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: black;
+    font-size: large;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: rgb(247, 0, 227);
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+    font-size: 250%;
+}
