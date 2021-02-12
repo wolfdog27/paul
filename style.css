@@ -1,3 +1,13 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+#gFont {
+  font-family: 'Julius Sans One', sans-serif;
+}
+  
+
+
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -36,8 +46,17 @@
     background-repeat: no-repeat;
   }
 
+  .masthead5 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("assets/space.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .space {
-    height: 25vh;
+    height: 30vh;
     background-image: url("assets/space.jpeg");
     background-size: cover;
     background-position: center;
@@ -45,7 +64,21 @@
   }
 
 
+  #white {
+    color: white;
+  }
+  #white:hover {
+    color: #df12cc !important;
+  }
 
+  #cardLink {
+    color: black;
+    
+  }
+  #white:hover {
+    text-decoration: none;
+    color: black !important;
+  }
 
   #sticky-footer {
     flex-shrink: none;
@@ -70,11 +103,15 @@ padding: 5%;
 
 .navbar {
     transition: all 0.4s;
+    padding: 2em;
 }
 
 .navbar .nav-link {
-    color: black;
-    font-size: large;
+    color: rgb(31, 30, 30);
+    font-size:130%;
+    opacity: 90%;
+    font-stretch: expanded;
+
 }
 
 .navbar .nav-link:hover,
@@ -89,3 +126,17 @@ padding: 5%;
 }
 
 
+
+button {
+  font-size: large;
+  color: white;
+  font-size: 200%;
+  margin: 2em;
+  background: transparent;
+  border: solid 3px white;
+  padding: 1em;
+}
+
+button:hover {
+  color: black !important;
+  background-color: white !important;}
