@@ -3,9 +3,12 @@ body {
 }
 
 #gFont {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: minerva-modern, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
-  
+
+
 
 
 .masthead {
@@ -50,6 +53,15 @@ body {
     height: 100vh;
     min-height: 500px;
     background-image: url("assets/space.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .masthead6 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url("assets/levelup.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
