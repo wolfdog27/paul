@@ -2,142 +2,197 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
-#gFont {
-  font-family: minerva-modern, sans-serif;
-font-style: normal;
-font-weight: 400;
+@media (max-width: 575px) {
+  body {
+    background: coral;
+  }
+  nav {
+    padding-top: 0em !important;
+  }
+  #gFont {
+    font-size: 1.75em;
+  }
 }
 
+@media (min-width: 576px) {
+  body {
+    background: blue;
+  }
+  nav {
+    padding-top: 0em !important;
+  }
+  #gFont {
+    font-size: 2em;
+  }
+}
 
+@media (min-width: 768px) {
+  body {
+    background: red;
+  }
+  nav {
+    padding-top: 3em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
+}
 
+@media (min-width: 992px) {
+  body {
+    background: yellow;
+  }
+  nav {
+    padding-top: 2em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 1200px;) {
+  body {
+    background: orange;
+  }
+  nav {
+    padding-top: 2em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
+}
+
+#hamburger {
+  color: black;
+  padding: 0.5em;
+  border: solid 2px black;
+  border-radius: 10%;
+}
 
 .masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url("assets/paul1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('assets/paul1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .masthead2 {
-    height: 50vh;
-    min-height: 500px;
-    background-image: url("assets/astrohead.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.masthead2 {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url('assets/astrohead.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.masthead3 {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url('assets/bodyworkextended.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .masthead3 {
-    height: 50vh;
-    min-height: 500px;
-    background-image: url("assets/bodyworkextended.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.masthead4 {
+  height: 50vh;
+  min-height: 500px;
+  background-image: url('assets/aboutheader.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.masthead5 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('assets/space.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .masthead4 {
-    height: 50vh;
-    min-height: 500px;
-    background-image: url("assets/aboutheader.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.masthead6 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('assets/levelup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .masthead5 {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url("assets/space.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+.space {
+  height: 30vh;
+  background-image: url('assets/space.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .masthead6 {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url("assets/levelup.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+#white {
+  color: white;
+}
+#white:hover {
+  color: #df12cc !important;
+}
 
-  .space {
-    height: 30vh;
-    background-image: url("assets/space.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+#cardLink {
+  color: black;
+}
+#white:hover {
+  text-decoration: none;
+  color: black !important;
+}
 
-
-  #white {
-    color: white;
-  }
-  #white:hover {
-    color: #df12cc !important;
-  }
-
-  #cardLink {
-    color: black;
-    
-  }
-  #white:hover {
-    text-decoration: none;
-    color: black !important;
-  }
-
-  #sticky-footer {
-    flex-shrink: none;
-  }
+#sticky-footer {
+  flex-shrink: none;
+}
 
 .social {
-display:flex;
+  display: flex;
   justify-content: space-around;
-padding: 5%;
+  padding: 5%;
 }
 .fa-patreon:hover {
-    color: #df12cc !important;}
+  color: #df12cc !important;
+}
 .fa-instagram:hover {
-    color: #df12cc !important;}
+  color: #df12cc !important;
+}
 .fa-envelope:hover {
-    color: #df12cc !important;}
+  color: #df12cc !important;
+}
 .fa-facebook:hover {
-    color: #df12cc !important;}
+  color: #df12cc !important;
+}
 .fa-tiktok:hover {
-    color: #df12cc !important;}
-
+  color: #df12cc !important;
+}
 
 .navbar {
-    transition: all 0.4s;
-    padding: 2em;
+  transition: all 0.4s;
+  padding: 2em;
 }
 
 .navbar .nav-link {
-    color: rgb(31, 30, 30);
-    font-size:130%;
-    opacity: 90%;
-    font-stretch: expanded;
-
+  color: rgb(31, 30, 30);
+  font-size: 130%;
+  opacity: 90%;
+  font-stretch: expanded;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: rgb(247, 0, 227);
-    text-decoration: none;
+  color: rgb(247, 0, 227);
+  text-decoration: none;
 }
 
 .navbar .navbar-brand {
-    color: black;
-    font-size: 250%;
+  color: black;
+  font-size: 250%;
 }
-
-
 
 button {
   font-size: large;
@@ -151,4 +206,5 @@ button {
 
 button:hover {
   color: black !important;
-  background-color: white !important;}
+  background-color: white !important;
+}
