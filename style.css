@@ -2,76 +2,6 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
-@media (max-width: 575px) {
-  body {
-    background: coral;
-  }
-  #gFont {
-    font-size: 2em;
-  }
-}
-
-@media (min-width: 576px) {
-  body {
-    background: blue;
-  }
-  #gFont {
-    font-size: 2em;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    background: red;
-  }
-  nav {
-    padding-top: 3em !important;
-  }
-  #gFont {
-    font-size: 2.5em;
-  }
-  .button1 {
-    color: white;
-    font-size: 1.5rem !important;
-    margin: 1em !important;
-    background: transparent;
-    border: solid 3px white;
-    padding: 2em !important;
-  }
-}
-
-@media (min-width: 992px) {
-  body {
-    background: yellow;
-  }
-  nav {
-    padding-top: 2em !important;
-  }
-  #gFont {
-    font-size: 2.5em;
-  }
-  .button1 {
-    color: white;
-    font-size: 1.5rem !important;
-    margin: 2em !important;
-    background: transparent;
-    border: solid 3px white;
-    padding: 2em !important;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    background: orange;
-  }
-  nav {
-    padding-top: 2em !important;
-  }
-  #gFont {
-    font-size: 2.5em;
-  }
-}
-
 #hamburger {
   color: black;
   padding: 0.5em;
@@ -216,4 +146,86 @@ body {
 .button1:hover {
   color: black !important;
   background-color: white !important;
+}
+
+@media (max-width: 575px) {
+  body {
+    background: coral;
+  }
+  #gFont {
+    font-size: 2em;
+  }
+  .masthead {
+    background-position: 25%;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background: blue;
+  }
+  #gFont {
+    font-size: 2em;
+  }
+  .masthead {
+    background-position: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background: red;
+  }
+  nav {
+    padding-top: 3em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
+  .button1 {
+    color: white;
+    font-size: 1.5rem !important;
+    margin: 1em !important;
+    background: transparent;
+    border: solid 3px white;
+    padding: 2em !important;
+  }
+  .masthead {
+    background-position: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background: yellow;
+  }
+  nav {
+    padding-top: 2em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
+  .button1 {
+    color: white;
+    font-size: 1.5rem !important;
+    margin: 2em !important;
+    background: transparent;
+    border: solid 3px white;
+    padding: 2em !important;
+  }
+  .masthead {
+    background-position: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: orange;
+  }
+  nav {
+    padding-top: 2em !important;
+  }
+  #gFont {
+    font-size: 2.5em;
+  }
 }
