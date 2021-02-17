@@ -23,7 +23,7 @@ body {
   min-height: 500px;
   background-image: url('assets/astrohead.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: 50% 5%;
   background-repeat: no-repeat;
 }
 
@@ -158,6 +158,9 @@ body {
   .masthead {
     background-position: 25%;
   }
+  .masthead3 {
+    background-position: 0%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -169,6 +172,9 @@ body {
   }
   .masthead {
     background-position: 20%;
+  }
+  .masthead3 {
+    background-position: 0%;
   }
 }
 
@@ -192,6 +198,9 @@ body {
   }
   .masthead {
     background-position: 20%;
+  }
+  .masthead3 {
+    background-position: 0%;
   }
 }
 
