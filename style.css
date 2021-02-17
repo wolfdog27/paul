@@ -9,6 +9,15 @@ body {
   border-radius: 10%;
 }
 
+btn:focus,
+a:focus {
+  outline: none;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -236,5 +245,8 @@ body {
   }
   #gFont {
     font-size: 2.5em;
+  }
+  .masthead4 {
+    background-position: 0% 40%;
   }
 }
