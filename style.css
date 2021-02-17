@@ -80,10 +80,17 @@ a:focus {
   background-repeat: no-repeat;
 }
 
-#white {
+#body {
   color: white;
 }
-#white:hover {
+#body:hover {
+  color: #df12cc !important;
+}
+
+#tarot {
+  color: aqua;
+}
+#tarot:hover {
   color: #df12cc !important;
 }
 
@@ -164,11 +171,22 @@ a:focus {
   #gFont {
     font-size: 2em;
   }
-  .masthead {
-    background-position: 25%;
+  nav {
+    padding-top: 1em !important;
+    padding-right: 1em !important;
   }
+  .masthead {
+    background-position: 15%;
+  }
+  .masthead2 {
+    background-position: 67% 0%;
+  }
+
   .masthead3 {
-    background-position: 0%;
+    background-position: 10%;
+  }
+  .masthead4 {
+    background-position: 60%;
   }
 }
 
