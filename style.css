@@ -176,7 +176,7 @@ a:focus {
     padding-right: 1em !important;
   }
   .masthead {
-    background-position: 15%;
+    background-position: 17%;
   }
   .masthead2 {
     background-position: 67% 0%;
@@ -187,6 +187,11 @@ a:focus {
   }
   .masthead4 {
     background-position: 60%;
+  }
+  .button1 {
+    font-size: 1.5rem;
+    margin: 2em;
+    margin-top: 2.5em;
   }
 }
 
@@ -202,6 +207,11 @@ a:focus {
   }
   .masthead3 {
     background-position: 0%;
+  }
+  .button1 {
+    font-size: 1.6rem;
+    margin: 2em;
+    margin-top: 2.5em;
   }
 }
 
@@ -229,6 +239,10 @@ a:focus {
   .masthead3 {
     background-position: 0%;
   }
+  .button1 {
+    margin: 2em;
+    margin-top: 1.75em !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -245,6 +259,7 @@ a:focus {
     color: white;
     font-size: 1.5rem !important;
     margin: 2em !important;
+    margin-top: 2.5em !important;
     background: transparent;
     border: solid 3px white;
     padding: 2em !important;
