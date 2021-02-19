@@ -80,17 +80,30 @@ a:focus {
   background-repeat: no-repeat;
 }
 
+#schedule {
+  font-size: x-large !important;
+  background: transparent !important;
+  border: solid 3px white !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  padding-left: 5em !important;
+  padding-right: 5em !important;
+}
+#schedule:hover {
+  font-size: x-large !important;
+  background: white !important;
+  color: black !important;
+  border: solid 3px white !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+  padding-left: 5em !important;
+  padding-right: 5em !important;
+}
+
 #body {
   color: white;
 }
 #body:hover {
-  color: #ff00b4 !important;
-}
-
-#tarot {
-  color: aqua;
-}
-#tarot:hover {
   color: #ff00b4 !important;
 }
 
@@ -172,7 +185,7 @@ a:focus {
     font-size: 2em;
   }
   nav {
-    padding-top: 1em !important;
+    padding-top: 0.5em !important;
     padding-right: 1em !important;
   }
   .masthead {
@@ -192,6 +205,25 @@ a:focus {
     font-size: 1.5rem;
     margin: 2em;
     margin-top: 2.5em;
+  }
+  #schedule {
+    font-size: x-large !important;
+    background: transparent !important;
+    border: solid 3px white !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+  #schedule:hover {
+    font-size: x-large !important;
+    background: white !important;
+    color: black !important;
+    border: solid 3px white !important;
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
   }
 }
 
