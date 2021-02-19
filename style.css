@@ -84,14 +84,14 @@ a:focus {
   color: white;
 }
 #body:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 
 #tarot {
   color: aqua;
 }
 #tarot:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 
 #cardLink {
@@ -112,19 +112,19 @@ a:focus {
   padding: 5%;
 }
 .fa-patreon:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 .fa-instagram:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 .fa-envelope:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 .fa-facebook:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 .fa-tiktok:hover {
-  color: #df12cc !important;
+  color: #ff00b4 !important;
 }
 
 .navbar {
@@ -271,7 +271,7 @@ a:focus {
 
 @media (min-width: 1200px) {
   body {
-    background: orange;
+    background: white;
   }
   nav {
     padding-top: 2em !important;
