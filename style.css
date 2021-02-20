@@ -28,7 +28,7 @@ a:focus {
 }
 
 .masthead2 {
-  height: 50vh;
+  height: 100vh;
   min-height: 500px;
   background-image: url('assets/astrohead.jpg');
   background-size: cover;
@@ -37,7 +37,7 @@ a:focus {
 }
 
 .masthead3 {
-  height: 50vh;
+  height: 100vh;
   min-height: 500px;
   background-image: url('assets/bodyworkextended.png');
   background-size: cover;
@@ -46,7 +46,7 @@ a:focus {
 }
 
 .masthead4 {
-  height: 50vh;
+  height: 100vh;
   min-height: 500px;
   background-image: url('assets/aboutheader.jpg');
   background-size: cover;
@@ -184,21 +184,21 @@ a:focus {
     font-size: 2em;
   }
   nav {
-    padding-top: 0.5em !important;
+    padding-top: 1em !important;
     padding-right: 1em !important;
   }
   .masthead {
     background-position: 20%;
   }
   .masthead2 {
-    background-position: 67% 0%;
+    background-position: 60%;
   }
 
   .masthead3 {
-    background-position: 10%;
+    background-position: 11%;
   }
   .masthead4 {
-    background-position: 60%;
+    background-position: 50%;
   }
   .button1 {
     font-size: 1.5rem;
