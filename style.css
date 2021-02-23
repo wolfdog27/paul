@@ -39,7 +39,7 @@ a:focus {
 .masthead3 {
   height: 100vh;
   min-height: 500px;
-  background-image: url('assets/bodyworkextended.png');
+  background-image: url('assets/paulbody2.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,8 +81,8 @@ a:focus {
 
 #schedule {
   font-size: x-large !important;
-  background: transparent !important;
-  border: solid 3px white !important;
+  border-radius: 15px !important;
+  border: solid 3px black !important;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
   padding-left: 5em !important;
@@ -195,7 +195,7 @@ a:focus {
   }
 
   .masthead3 {
-    background-position: 11%;
+    background-position: 14%;
   }
   .masthead4 {
     background-position: 50%;
@@ -241,7 +241,7 @@ a:focus {
     background-position: 20%;
   }
   .masthead3 {
-    background-position: 0%;
+    background-position: 10%;
   }
   .button1 {
     font-size: 1.6rem;
@@ -318,3 +318,18 @@ a:focus {
     background-position: 0% 40%;
   }
 }
+
+/* .parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('assets/astrohead.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+} */
