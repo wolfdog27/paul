@@ -9,6 +9,10 @@ body {
   border-radius: 10%;
 }
 
+.container3 {
+  height: 100vh;
+}
+
 btn:focus,
 a:focus {
   outline: none;
@@ -178,7 +182,7 @@ a:focus {
 
 @media (max-width: 575px) {
   body {
-    background: coral;
+    background: white;
   }
   #gFont {
     font-size: 2em;
@@ -228,6 +232,12 @@ a:focus {
     margin-left: 0em !important;
     margin-right: 0em !important;
   }
+  #pad {
+    padding: 5% !important;
+  }
+  #intuitive {
+    visibility: hidden;
+  }
 }
 
 @media (min-width: 576px) {
@@ -247,6 +257,9 @@ a:focus {
     font-size: 1.6rem;
     margin: 2em;
     margin-top: 2.5em;
+  }
+  #intuitive {
+    visibility: hidden;
   }
 }
 
@@ -278,6 +291,13 @@ a:focus {
     margin: 2em;
     margin-top: 1.75em !important;
   }
+  #intuitive {
+    visibility: visible;
+    margin-top: 30% !important;
+    font-size: 200%;
+    margin-left: 0em;
+    justify-content: end;
+  }
 }
 
 @media (min-width: 992px) {
@@ -302,6 +322,18 @@ a:focus {
   .masthead {
     background-position: 20%;
   }
+  #largeText {
+    font-size: 400%;
+  }
+  #smallText {
+    font-size: x-large !important;
+  }
+  #intuitive {
+    visibility: visible;
+    margin-top: 30% !important;
+    font-size: 240%;
+    margin-left: 0em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -316,6 +348,11 @@ a:focus {
   }
   .masthead4 {
     background-position: 0% 40%;
+  }
+  #intuitive {
+    margin-top: 30% !important;
+    font-size: 300%;
+    margin-left: 0em;
   }
 }
 
