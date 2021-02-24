@@ -238,7 +238,10 @@ a:focus {
   }
 
   #intuitive {
-    visibility: hidden;
+    font-size: 200%;
+  }
+  #intuitive2 {
+    justify-content: center !important;
   }
 }
 
@@ -261,7 +264,10 @@ a:focus {
     margin-top: 2.5em;
   }
   #intuitive {
-    visibility: hidden;
+    font-size: 200%;
+  }
+  #intuitive2 {
+    justify-content: center !important;
   }
 }
 
@@ -294,11 +300,11 @@ a:focus {
     margin-top: 1.75em !important;
   }
   #intuitive {
-    visibility: visible;
-    margin-top: 30% !important;
+    margin-top: 17% !important;
     font-size: 200%;
-    margin-left: 0em;
-    justify-content: end;
+  }
+  #intuitive2 {
+    justify-content: flex-end !important;
   }
 }
 
@@ -331,10 +337,8 @@ a:focus {
     font-size: x-large !important;
   }
   #intuitive {
-    visibility: visible;
-    margin-top: 30% !important;
+    margin-top: 20% !important;
     font-size: 240%;
-    margin-left: 0em;
   }
 }
 
@@ -352,9 +356,8 @@ a:focus {
     background-position: 0% 40%;
   }
   #intuitive {
-    margin-top: 30% !important;
+    margin-top: 20% !important;
     font-size: 300%;
-    margin-left: 0em;
   }
 }
 
