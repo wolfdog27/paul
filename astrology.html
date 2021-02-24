@@ -46,13 +46,13 @@
         <div class="container" style="margin-top: 5%;">
             <div class="row mb-5 mx-2">
                 <div class="col-sm-12 d-flex justify-content-center">
-                    <h1 class="display-5">You Are Loved</h1>
+                    <h1 class="display-5" id="hello">You Are Loved</h1>
                 </div>
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque, vitae ducimus earum exercitationem voluptate nostrum est cum ipsa, nobis pariatur. Mollitia voluptate reiciendis dolor, quis blanditiis cumque? Tenetur, quidem.</p>
+                <div class="col-sm-12 d-flex justify-content-center mt-3">
+                    <p id="helloBody">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur doloremque, vitae ducimus earum exercitationem voluptate nostrum est cum ipsa, nobis pariatur. Mollitia voluptate reiciendis dolor, quis blanditiis cumque? Tenetur, quidem.</p>
                 </div>
             </div>
-            <section class="text-center">
+            <section class="text-center mb-5">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item rounded" src="https://www.youtube.com/embed/6wpuQkFdyRM"
                         allowfullscreen></iframe>
@@ -61,15 +61,30 @@
         </div>
     </main>
     <div class="container" style="margin-top: 5%;">
-        <div class="row">
-        <div class="col-sm-8 text-center mt-5">
-            <h1 class="display-4">Sign Up Today!</h1> <br>
-            <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non exercitationem eaque dolores sint maiores iusto! Laboriosam maiores eos, dolores, quibusdam ducimus eligendi deserunt est consectetur saepe quas nesciunt sunt! Voluptates!</h5>
+        <div class="row justify-content-center align-items-center  d-none d-sm-flex">
+        <div class="col-sm-8">
+            <h1 class="display-4" id="signUp">Book Appointment Today!</h1> <br>
+            <h5 id="signUpText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non exercitationem eaque dolores sint maiores iusto! Laboriosam maiores eos, dolores, quibusdam ducimus eligendi deserunt est consectetur saepe quas nesciunt sunt! Voluptates!</h5>
         </div>
-        <div class="col-sm-4 d-flex justify-content-center" style="max-width: 300px;">
-            <a href="#" target="_blank"><img src="assets/scheduleer.png"
+        <div id="none" class="col-sm-4 d-flex justify-content-center" style="max-width: 300px;">
+            <a href="https://app.acuityscheduling.com/schedule.php?owner=22039597" target="_blank"><img src="assets/scheduleer.png"
                     class="img-fluid rounded" alt="Paul hosting a Sensible Theatre event" /></a>
             
+        </div>
+    </div>
+    <div class="container" style="margin-top: 15%;">
+
+        <!-- The one above is shown anything larger than xs, one below is for phones -->
+        <div class="row justify-content-center align-items-center mx-3 d-sm-none">
+            <div class="col-sm-4">
+                <h1 class="display-4 text-center" id="signUp">Book Appointment Today!</h1> <br>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center mb-4" style="max-width: 300px;">
+                <a href="https://app.acuityscheduling.com/schedule.php?owner=22039597" target="_blank"><img src="assets/scheduleer.png"
+                        class="img-fluid rounded" alt="Paul hosting a Sensible Theatre event" /></a>
+            </div>
+            <div>
+            <h5 class="col-sm-4 text-center" id="signUpText">We've made it easier than ever to book an appointmentLorem ipsum dolor sit amet consectetur, adipisicing elit. Non exercitationem eaque dolores sint maiores iusto! Laboriosam maiores eos, dolores, quibusdam ducimus eligendi deserunt est consectetur saepe quas nesciunt sunt! Voluptates!</h5>
         </div>
     </div>
 

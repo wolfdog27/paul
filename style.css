@@ -247,7 +247,13 @@ a:focus {
     font-size: 210%;
   }
   #helloBody {
-    font-size: medium;
+    font-size: large;
+  }
+  #signUp {
+    font-size: 200%;
+  }
+  #signUpText {
+    font-size: large;
   }
 }
 
@@ -279,6 +285,12 @@ a:focus {
     font-size: 300%;
   }
   #helloBody {
+    font-size: large;
+  }
+  #signUp {
+    font-size: 160%;
+  }
+  #signUpText {
     font-size: large;
   }
 }
@@ -318,6 +330,12 @@ a:focus {
   #intuitive2 {
     justify-content: flex-end !important;
   }
+  #signUp {
+    font-size: 230%;
+  }
+  #signUpText {
+    font-size: large;
+  }
 }
 
 @media (min-width: 992px) {
@@ -356,6 +374,12 @@ a:focus {
     font-size: 400%;
   }
   #helloBody {
+    font-size: large;
+  }
+  #signUp {
+    font-size: 300%;
+  }
+  #signUpText {
     font-size: large;
   }
 }
