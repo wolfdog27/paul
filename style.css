@@ -76,7 +76,7 @@ a:focus {
   background-repeat: no-repeat;
 }
 
-.space {
+#space {
   background-image: url('assets/space.jpeg');
   background-size: cover;
   background-position: center;
@@ -322,7 +322,7 @@ a:focus {
   .masthead {
     background-position: 20%;
   }
-  #largeText {s
+  #largeText {
     font-size: 400%;
   }
   #smallText {
