@@ -234,7 +234,9 @@ a:focus {
   }
   #pad {
     padding: 5% !important;
+    border-radius: 2em !important;
   }
+
   #intuitive {
     visibility: hidden;
   }
