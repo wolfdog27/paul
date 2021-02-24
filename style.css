@@ -255,6 +255,9 @@ a:focus {
   #signUpText {
     font-size: large;
   }
+  #pLink {
+    font-size: 120%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -336,6 +339,9 @@ a:focus {
   #signUpText {
     font-size: large;
   }
+  #pLink {
+    font-size: 100%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -381,6 +387,9 @@ a:focus {
   }
   #signUpText {
     font-size: large;
+  }
+  #pLink {
+    font-size: 150%;
   }
 }
 
