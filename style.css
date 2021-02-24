@@ -243,6 +243,12 @@ a:focus {
   #intuitive2 {
     justify-content: center !important;
   }
+  #hello {
+    font-size: 210%;
+  }
+  #helloBody {
+    font-size: medium;
+  }
 }
 
 @media (min-width: 576px) {
@@ -268,6 +274,12 @@ a:focus {
   }
   #intuitive2 {
     justify-content: center !important;
+  }
+  #hello {
+    font-size: 300%;
+  }
+  #helloBody {
+    font-size: large;
   }
 }
 
@@ -339,6 +351,12 @@ a:focus {
   #intuitive {
     margin-top: 20% !important;
     font-size: 240%;
+  }
+  #hello {
+    font-size: 400%;
+  }
+  #helloBody {
+    font-size: large;
   }
 }
 
