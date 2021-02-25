@@ -2,6 +2,10 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+.modal-body {
+  padding: 0em !important;
+}
+
 #hamburger {
   color: black;
   padding: 0.5em;
@@ -258,6 +262,11 @@ a:focus {
   #pLink {
     font-size: 120%;
   }
+  #amaze {
+    font-size: 120%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -295,6 +304,9 @@ a:focus {
   }
   #signUpText {
     font-size: large;
+  }
+  #amaze {
+    font-size: 160%;
   }
 }
 
@@ -341,6 +353,9 @@ a:focus {
   }
   #pLink {
     font-size: 100%;
+  }
+  #amaze {
+    font-size: 120%;
   }
 }
 
@@ -390,6 +405,9 @@ a:focus {
   }
   #pLink {
     font-size: 150%;
+  }
+  #amaze {
+    font-size: 160%;
   }
 }
 
