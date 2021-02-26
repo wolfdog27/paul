@@ -13,6 +13,12 @@ body {
   border-radius: 10%;
 }
 
+#space2 {
+  background-image: url(assets/space.jpeg) !important;
+  border: none;
+  background-color: transparent !important;
+}
+
 .container3 {
   height: 100vh;
 }
