@@ -314,6 +314,11 @@ a:focus {
     background-size: contain;
     background-position: center;
   }
+
+  #messageMe {
+    margin-right: 2% !important;
+    margin-left: 2% !important;
+  }
 }
 
 @media (min-width: 576px) {
@@ -354,6 +359,10 @@ a:focus {
   }
   #amaze {
     font-size: 160%;
+  }
+  #messageMe {
+    margin-right: 3% !important;
+    margin-left: 3% !important;
   }
 }
 
@@ -455,6 +464,10 @@ a:focus {
   }
   #amaze {
     font-size: 160%;
+  }
+  #messageMe {
+    margin-right: 5% !important;
+    margin-left: 5% !important;
   }
 }
 

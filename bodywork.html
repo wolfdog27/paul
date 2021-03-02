@@ -90,87 +90,100 @@
   </main>
   <br /><br />
 
-  <main class="mt-5 mx-3">
-    <div class="container">
-      <section id="examples">
-        <h1 style="text-align: center">Message Me To Book An Appointment</h1>
-        <form>
-          <div class="form-row mb-2">
-            <div class="col">
-              <label for="firstName" class="form-label">First Name</label>
-              <input type="text" class="form-control" id="firstName" />
+  <div class="mt-5 " id="messageMe">
+    <div class="row mx-3 d-flex justify-content-around" id="phoneOnly">
+      <div class="col-md-7 d-flex justify-content-center align-items-center"
+        style="border:1px solid #333; border-radius: 5%;">
+        <section class="mt-5 mb-5 mx-3" id="examples">
+          <h1 style="text-align: center">Message Me To Book An Appointment</h1>
+          <form>
+            <div class="form-row mb-2">
+              <div class="col">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" />
+              </div>
+              <div class="col">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" />
+              </div>
             </div>
-            <div class="col">
-              <label for="lastName" class="form-label">Last Name</label>
-              <input type="text" class="form-control" id="lastName" />
+            <div class="form-group">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" />
             </div>
-          </div>
-          <div class="form-group">
-            <label for="inputEmail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail" />
-          </div>
-          <div class="form-group">
-            <label for="subject" class="form-label">Subject</label>
-            <input type="text" class="form-control" id="subject" />
-          </div>
-          <div class="form-group">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <button type="submit" class="btn btn-primary btn-block">
-              Submit
-            </button>
-          </div>
-        </form>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div class="col-md-4 d-flex align-items-center">
         <div class="row justify-content-center text-center mx-3">
-          <h1 class="col-sm-8 mt-5 mb-5">Also...</h1>
-          <div class="col-sm-8 d-flex justify-content-center">
-            <a href="http://www.onlyfans.com/pisceslovenyc" target="_blank"><img src="assets/onlyfans.png"
-                class="card-img-top" alt="onlyfans logo" /></a>
+          <div class="d-flex flex-column">
+            <h1 class="mt-5">Also...</h1>
+            <div>
+              <a href="http://www.onlyfans.com/pisceslovenyc" target="_blank"><img style="border-radius: 5%;"
+                  class="img-fluid mt-5 mb-3" src="assets/twitter.jpeg"></a>
+            </div>
+            <div class="mb-5">
+              <a href="http://www.onlyfans.com/pisceslovenyc" target="_blank"><img src="assets/onlyfans.png"
+                  class="card-img-top" alt="onlyfans logo" /></a>
+            </div>
           </div>
         </div>
-      </section>
-      <br /><br /><br /><br /><br />
-      <section id="examples" class="text-center" style="
+      </div>
+    </div>
+  </div>
+
+  <section id="examples" class="text-center" style="
       color: black;
       font-family: 'Cabin', sans-serif;
       font-size: medium;
     ">
-        <h5 style="padding-top: 10%; font-family: 'Cabin', sans-serif">
-          Follow | Like | Subscribe
-        </h5>
+    <h5 style="padding-top: 10%; font-family: 'Cabin', sans-serif">
+      Follow | Like | Subscribe
+    </h5>
 
-        <div class="container social d-flex justify-content-around">
-          <div class="col">
-            <a href="https://www.patreon.com/SensiblePaul" target="_blank"><i id="icon" class="fab fa-patreon"
-                style="font-size: 60px; color: black"></i></a>
-          </div>
-          <div class="col">
-            <a href="https://www.instagram.com/sensiblepaul/" target="_blank"><i id="icon" class="fab fa-instagram"
-                style="font-size: 60px; color: black"></i></a>
-          </div>
-          <div class="col">
-            <a href="https://www.facebook.com/SensiblePaul/" target="_blank"><i id="icon" class="fab fa-facebook"
-                style="font-size: 60px; color: black"></i></a>
-          </div>
-          <div class="col">
-            <a href="https://www.tiktok.com/@sensiblepaul" target="_blank"><i id="icon" class="fab fa-tiktok"
-                style="font-size: 60px; color: black"></i></a>
-          </div>
-          <div class="col">
-            <a href="https://twitter.com/nyc_pisces" target="_blank"><i id="icon" class="fab fa-twitter"
-                style="font-size: 60px; color: black"></i></a>
-          </div>
-          <div class="col containerFans d-flex justify-content-center">
-            <a href="http://www.onlyfans.com/pisceslovenyc" target="_blank">
-              <div class="onlyFans2" id="icon2"> </div>
-            </a>
-          </div>
-        </div>
+    <div class="container social d-flex justify-content-around">
+      <div class="col">
+        <a href="https://www.patreon.com/SensiblePaul" target="_blank"><i id="icon" class="fab fa-patreon"
+            style="font-size: 60px; color: black"></i></a>
+      </div>
+      <div class="col">
+        <a href="https://www.instagram.com/sensiblepaul/" target="_blank"><i id="icon" class="fab fa-instagram"
+            style="font-size: 60px; color: black"></i></a>
+      </div>
+      <div class="col">
+        <a href="https://www.facebook.com/SensiblePaul/" target="_blank"><i id="icon" class="fab fa-facebook"
+            style="font-size: 60px; color: black"></i></a>
+      </div>
+      <div class="col">
+        <a href="https://www.tiktok.com/@sensiblepaul" target="_blank"><i id="icon" class="fab fa-tiktok"
+            style="font-size: 60px; color: black"></i></a>
+      </div>
+      <div class="col">
+        <a href="https://twitter.com/nyc_pisces" target="_blank"><i id="icon" class="fab fa-twitter"
+            style="font-size: 60px; color: black"></i></a>
+      </div>
+      <div class="col containerFans d-flex justify-content-center">
+        <a href="http://www.onlyfans.com/pisceslovenyc" target="_blank">
+          <div class="onlyFans2" id="icon2"> </div>
+        </a>
+      </div>
     </div>
-    </section>
     </div>
+  </section>
+  </div>
   </main>
   <!--Main layout-->
 
