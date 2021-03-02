@@ -2,6 +2,11 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+#intuitive {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+}
+
 .modal-body {
   padding: 0em !important;
 }
@@ -271,7 +276,7 @@ a:focus {
   }
 
   #intuitive {
-    font-size: 150%;
+    font-size: 170%;
   }
   #intuitive2 {
     justify-content: center !important;
