@@ -7,6 +7,7 @@ body {
     font-weight: bolder;
 }
 
+
 .modal-body {
   padding: 0em !important;
 }
@@ -233,7 +234,7 @@ a:focus {
     background-position: 20%;
   }
   .masthead2 {
-    background-position: 58%;
+    background-position: 50%;
   }
 
   .masthead3 {
@@ -276,7 +277,8 @@ a:focus {
   }
 
   #intuitive {
-    font-size: 170%;
+    font-size: 150%;
+
   }
   #intuitive2 {
     justify-content: center !important;
@@ -324,6 +326,9 @@ a:focus {
     margin-right: 2% !important;
     margin-left: 2% !important;
   }
+  #logoPF {
+    max-width: 100px !important;
+  }
 }
 
 @media (min-width: 576px) {
@@ -345,7 +350,7 @@ a:focus {
     margin-top: 2.5em;
   }
   #intuitive {
-    font-size: 200%;
+    font-size: 150%;
   }
   #intuitive2 {
     justify-content: center !important;
@@ -369,6 +374,10 @@ a:focus {
     margin-right: 3% !important;
     margin-left: 3% !important;
   }
+  #logoPF {
+    max-width: 100px !important;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -417,6 +426,9 @@ a:focus {
   }
   #amaze {
     font-size: 120%;
+  }
+  #logoPF {
+    max-width: 150px !important;
   }
 }
 
