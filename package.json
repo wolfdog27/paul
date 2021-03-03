@@ -1,0 +1,25 @@
+{
+  "name": "paul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfdog27/paul.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfdog27/paul/issues"
+  },
+  "homepage": "https://github.com/wolfdog27/paul#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0",
+    "nodemailer-mailgun-transport": "^2.0.2"
+  }
+}
