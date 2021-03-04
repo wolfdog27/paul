@@ -38,6 +38,14 @@ a:focus {
   box-shadow: none;
 }
 
+#patreonBG {
+            background-image: url(assets/space2.png) !important;
+            background-position: 50% 5%;
+              border-radius: 10px;
+              padding: 10%;
+          
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -50,9 +58,9 @@ a:focus {
 .masthead2 {
   height: 100vh;
   min-height: 500px;
-  background-image: url('assets/astrohead.jpg');
+  background-image: url('assets/levelup.jpg');
   background-size: cover;
-  background-position: 50% 5%;
+  background-position: 48% !important;
   background-repeat: no-repeat;
 }
 
@@ -331,6 +339,23 @@ a:focus {
   #logoPF {
     max-width: 100px !important;
   }
+  #bookBtn {
+    max-width: 300px !important;
+  }
+  #love {
+    font-size: 210% !important;
+  }
+  #love2 {
+    font-size: 100%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  #love3{
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+      }
 }
 
 @media (min-width: 576px) {
@@ -379,6 +404,20 @@ a:focus {
   #logoPF {
     max-width: 100px !important;
   }
+  #love {
+    font-size: 210% !important;
+  }
+  #love2 {
+    font-size: 110%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  #love3{
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+      }
 
 }
 
@@ -432,6 +471,20 @@ a:focus {
   #logoPF {
     max-width: 150px !important;
   }
+  #love {
+    font-size: 210% !important;
+  }
+  #love2 {
+    font-size: 110%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  #love3{
+    margin-right: 5% !important;
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+    margin-bottom: 5% !important;
+      }
 }
 
 @media (min-width: 992px) {
@@ -488,6 +541,20 @@ a:focus {
     margin-right: 5% !important;
     margin-left: 5% !important;
   }
+  #love {
+    font-size: 230% !important;
+  }
+  #love2 {
+    font-size: 120%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  #love3{
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+      }
 }
 
 @media (min-width: 1200px) {
@@ -507,6 +574,20 @@ a:focus {
     margin-top: 20% !important;
     font-size: 300%;
   }
+  #love {
+    font-size: 280% !important;
+  }
+  #love2 {
+    font-size: 130%;
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+  }
+  #love3{
+    margin-right: 13% !important;
+    margin-left: 13% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+      }
 }
 
 /* .parallax {
