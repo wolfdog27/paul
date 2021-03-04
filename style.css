@@ -39,10 +39,10 @@ a:focus {
 }
 
 #patreonBG {
-            background-image: url(assets/space2.png) !important;
-            background-position: 50% 5%;
-              border-radius: 10px;
-              padding: 10%;
+  background-image: url(assets/space2.png) !important;
+  background-position: 50% 5%;
+  border-radius: 10px;
+  padding: 5%;
           
 }
 
@@ -588,6 +588,9 @@ a:focus {
     margin-top: 5% !important;
     margin-bottom: 5% !important;
       }
+  #punch {
+    margin-left: -2.75%;
+  }
 }
 
 /* .parallax {
