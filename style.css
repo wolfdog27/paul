@@ -11,6 +11,22 @@ li {
   font-size: large;
 }
 
+#button2{
+  background-color: rgb(31, 31, 31) !important;
+  color: white;
+}
+#button2:hover{
+  background-color: rgb(45, 45, 45) !important;
+}
+
+#button3{
+  background-color: rgb(106, 0, 211) !important;
+  color: white;
+}
+#button3:hover{
+  background-color: rgb(127, 2, 244) !important;
+}
+
 .container2 {
   position: relative;
   width: 100%;
@@ -383,6 +399,7 @@ a:focus {
  #message2 {
    font-size: 85%;
  }
+
 
 }
 
