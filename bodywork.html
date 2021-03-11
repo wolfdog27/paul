@@ -97,34 +97,37 @@
       <div class="col-md-7 d-flex justify-content-center align-items-center"
         style="border:1px solid #333; border-radius: 5%;">
         <section class="mt-5 mb-5 mx-3" id="examples">
-          <h1 style="text-align: center">Message Me To Book An Appointment</h1>
-          <form>
-            <div class="form-row mb-2">
-              <div class="col">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" />
-              </div>
-              <div class="col">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" />
-              </div>
+          <h1 style="text-align: center">Message Me To Chat!</h1>
+          <form id="form" action="/action_page.php" class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="from_name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" name="from_name" id="from_name" required />
+              <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="form-group">
-              <label for="inputEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail" />
+              <label for="reply_to" class="form-label">Email</label>
+              <input type="email" class="form-control" id="reply_to" name="reply_to" required />
+              <div class="invalid-feedback">Must be a valid e-mail.</div>
             </div>
             <div class="form-group">
               <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subject" />
+              <input type="text" class="form-control" id="subject" name="subject" required />
+              <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="form-group">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              <div class="invalid-feedback">Please fill out this field.</div>
             </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-block">
-                Submit
-              </button>
+            <button id="button" value="Send Email" type="submit" class="btn btn-primary btn-block">
+              Submit
+            </button>
+            <div id="success_message"
+              style="width:100%; height:100%; margin-top: 5%; color: rgb(0, 172, 0); display: none; ">
+              <h3>Sent your message successfully!</h3>
+            </div>
+            <div id="error_message" style="width:100%; height:100%; margin-top: 5%; color: red; display: none;  ">
+              <h3>Error</h3> Sorry there was an error sending your form.
             </div>
           </form>
         </section>
@@ -209,6 +212,11 @@
     crossorigin="anonymous"></script>
   <!-- Personal JS -->
   <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+  <script type="text/javascript">
+    emailjs.init('user_WVG3WjIGiwR6L290QiXwF')
+  </script>
 </body>
 
 </html>
