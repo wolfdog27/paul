@@ -35,6 +35,12 @@ li {
   background-color: rgb(34, 2, 63) !important;
 }
 
+#serviceInfo {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 5%
+}
+
 .container2 {
   position: relative;
   width: 100%;
