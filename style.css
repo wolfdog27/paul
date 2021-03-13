@@ -536,7 +536,7 @@ a:focus {
 
 @media (min-width: 992px) {
   body {
-    background: yellow;
+    background: white;
   }
   nav {
     padding-top: 2em !important;
