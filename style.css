@@ -11,12 +11,20 @@ li {
   font-size: large;
 }
 
+#button1{
+  background-color: #004556!important;
+  color: white;
+}
+#button1:hover{
+  background-color: #012028 !important;
+}
+
 #button2{
-  background-color: rgb(31, 31, 31) !important;
+  background-color: rgb(56, 56, 56) !important;
   color: white;
 }
 #button2:hover{
-  background-color: rgb(45, 45, 45) !important;
+  background-color: rgb(12, 12, 12) !important;
 }
 
 #button3{
@@ -24,7 +32,7 @@ li {
   color: white;
 }
 #button3:hover{
-  background-color: rgb(102, 4, 193) !important;
+  background-color: rgb(34, 2, 63) !important;
 }
 
 .container2 {
