@@ -536,7 +536,7 @@ a:focus {
 
 @media (min-width: 992px) {
   body {
-    background: white;
+    background: yellow;
   }
   nav {
     padding-top: 2em !important;
@@ -630,7 +630,7 @@ a:focus {
    font-size: 140%;
  }
   #punch {
-    margin-left: -2.75%;
+    margin-left: -5%;
   }
 }
 
