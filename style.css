@@ -12,11 +12,18 @@ li {
 }
 
 #emailBtn {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   border: black 3px solid;
   background-color: transparent;
   color: black;
   font-size: larger;
 }
+
 
 #emailBtn:hover {
   border: black 3px solid;
@@ -649,7 +656,7 @@ a:focus {
    font-size: 140%;
  }
   #punch {
-    margin-left: -1%;
+    margin-left: -11%;
   }
 }
 
