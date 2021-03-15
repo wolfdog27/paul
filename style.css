@@ -11,6 +11,19 @@ li {
   font-size: large;
 }
 
+#emailBtn {
+  border: black 3px solid;
+  background-color: transparent;
+  color: black;
+  font-size: larger;
+}
+
+#emailBtn:hover {
+  border: black 3px solid;
+  background-color: black;
+  color: white;
+}
+
 #button1{
   background-color: #004556!important;
   color: white;
