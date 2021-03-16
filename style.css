@@ -37,6 +37,25 @@ li {
   color: white;
 }
 
+#zodiacBtn {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: black 3px solid;
+  background-color: transparent;
+  color: black;
+  font-size: larger;
+  border-radius: 2%;
+}
+
+#zodiacBtn:hover {
+  border: black 3px solid;
+  background-color: #ff00b4;
+  color: white;
+}
+
 #button1{
   background-color: #004556!important;
   color: white;
