@@ -2,6 +2,10 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+strong {
+  font-weight: 900 !important;
+}
+
 #intuitive {
   font-family: 'Cabin', sans-serif;
     font-weight: bolder;
