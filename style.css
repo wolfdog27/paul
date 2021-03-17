@@ -32,8 +32,9 @@ li {
 
 
 #emailBtn:hover {
+  text-decoration: none;
   border: black 3px solid;
-  background-color: black;
+  background-color: #ff00b4;
   color: white;
 }
 
