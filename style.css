@@ -378,6 +378,21 @@ a:focus {
 #button2 {
   margin-bottom: 5%;
 }
+#button3{
+  margin-bottom: 7%;
+}
+#hello2 {
+  margin-top: 4% !important;
+}
+#patreon3 {
+  margin-bottom: 5%;
+}
+#follow {
+  margin-top: 10%;
+}
+.patreonBlock {
+  margin-top: 18% !important;
+}
 
 
   #schedule {
@@ -521,7 +536,20 @@ a:focus {
   margin-bottom: 10%;
 }
 #button3 {
+  margin-bottom: 7%;
+}
+#patreon3 {
   margin-bottom: 5%;
+}
+#follow {
+  margin-top: 10%;
+}
+.patreonBlock {
+  margin-top: 18% !important;
+}
+#videoBlock{
+  margin-bottom: 15%;
+  margin-top: 5%;
 }
   #intuitive {
     font-size: 150%;
@@ -607,6 +635,12 @@ a:focus {
   #button3 {
     margin-bottom: 10%;
   }
+  #videoBlock {
+    margin-bottom: 18%;
+  }
+ #patreonLine {
+   margin-top: 12%;
+ }
   .masthead {
     background-position: 20%;
   }
@@ -675,6 +709,11 @@ a:focus {
     border: solid 3px white;
     padding: 2em !important;
   }
+  #videoBlock {
+    margin-bottom: 12%;
+  }
+
+
   .masthead {
     background-position: 20%;
   }
@@ -687,6 +726,15 @@ a:focus {
   #intuitive {
     margin-top: 20% !important;
     font-size: 240%;
+  }
+  .patreonBlock {
+    margin-top: 12% !important;
+  }
+  #follow {
+    margin-top: 5%;
+  }
+  #patreonLine {
+    margin-top: 8%;
   }
   #hello {
     font-size: 400%;
@@ -736,6 +784,12 @@ a:focus {
   #bookingServices {
     font-size: 400% !important;
     margin-bottom: 5%;
+  }
+  #patreonLine {
+    margin-top: 10%;
+  }
+  #videoBlock {
+    margin-top:3%;
   }
   .masthead4 {
     background-position: 0% 40%;
