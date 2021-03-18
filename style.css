@@ -435,6 +435,7 @@ a:focus {
   margin-bottom: 18%;
 }
 
+
   #schedule {
     font-size: x-large !important;
     background: transparent !important;
@@ -758,6 +759,9 @@ a:focus {
   font-size: 320%;
   text-align: center;
 }
+#faq{
+  font-size: 300% !important;
+}
 #astroBlock {
   margin-top: 15% !important;
   margin-bottom: 18% !important;
@@ -871,6 +875,9 @@ a:focus {
     font-size: 340%;
     text-align: center;
   }
+  #faq {
+    font-size: 330% !important;
+  }
 
 
   .masthead {
@@ -967,7 +974,7 @@ a:focus {
     margin-top:3%;
   }
   #appointmentCat{
-    font-size: 370%;
+    font-size: 350%;
     text-align: center;
   }
 
@@ -981,7 +988,10 @@ a:focus {
     max-width: 260px !important;
   }
   #momentHead{
-    font-size: 350% !important;
+    font-size: 330% !important;
+  }
+  #faq {
+    font-size: 330% !important;
   }
   
 
