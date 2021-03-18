@@ -394,6 +394,18 @@ a:focus {
   margin-top: 18% !important;
 }
 
+#knowMe {
+  font-size: 275%;
+}
+#aboutBlock {
+  margin-top: 20% !important;
+  
+}
+#lightBoxBlock {
+  margin-bottom: 20%;
+  margin-top: 15% !important;
+}
+
 
   #schedule {
     font-size: x-large !important;
@@ -551,6 +563,18 @@ a:focus {
   margin-bottom: 15%;
   margin-top: 5%;
 }
+
+#knowMe {
+  font-size: 275%;
+}
+#aboutBlock {
+  margin-top: 20% !important;
+}
+#lightBoxBlock {
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+
   #intuitive {
     font-size: 150%;
   }
@@ -641,6 +665,18 @@ a:focus {
  #patreonLine {
    margin-top: 12%;
  }
+
+ #knowMe {
+  font-size: 275%;
+}
+#aboutBlock {
+  margin-top: 15% !important;
+}
+#lightBoxBlock {
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+
   .masthead {
     background-position: 20%;
   }
@@ -696,6 +732,9 @@ a:focus {
   #gFont {
     font-size: 2.5em;
   }
+  #knowMe {
+    font-size: 350% !important;
+  }
   #bookingServices {
     font-size: 375% !important;
     margin-bottom: 5%;
@@ -732,6 +771,18 @@ a:focus {
   }
   #follow {
     margin-top: 5%;
+  }
+
+
+  #knowMe {
+    font-size: 475%;
+  }
+  #aboutBlock {
+    margin-top: 11% !important;
+  }
+  #lightBoxBlock {
+    margin-top: 10%;
+    margin-bottom: 12%;
   }
   #patreonLine {
     margin-top: 8%;
