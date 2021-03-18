@@ -370,7 +370,7 @@ a:focus {
 
   #bodyBlock {
     margin-top: 11%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
   }
 
   .button1 {
@@ -591,8 +591,7 @@ a:focus {
 
 #bodyBlock {
   margin-top: 11%;
-  margin-bottom: 20%;
-}
+  margin-bottom: 15%;}
 
 #onlyBlock {
   margin-top: 20% !important;
