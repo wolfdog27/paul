@@ -417,6 +417,24 @@ a:focus {
   margin-bottom: 20% !important;
 }
 
+#appointmentCat{
+  font-size: 290%;
+  text-align: center;
+}
+
+#momentHead{
+  font-size: 290% !important;
+}
+
+#astroBlock {
+  margin-top: 10% !important;
+  margin-bottom: 18% !important;
+}
+#astroBlock2{
+  margin-top: 20%;
+  margin-bottom: 18%;
+}
+
   #schedule {
     font-size: x-large !important;
     background: transparent !important;
@@ -598,6 +616,23 @@ a:focus {
   margin-bottom: 20% !important;
 }
 
+#appointmentCat{
+  font-size: 260%;
+  text-align: center;
+}
+#momentHead{
+  font-size: 340% !important;
+}
+
+#astroBlock {
+  margin-top: 10% !important;
+  margin-bottom: 18% !important;
+}
+#astroBlock2{
+  margin-top: 20%;
+  margin-bottom: 18%;
+}
+
   #intuitive {
     font-size: 150%;
   }
@@ -707,6 +742,32 @@ a:focus {
   margin-bottom: 12% !important;
 }
 
+#astroPic {
+  max-width: 130px !important;
+}
+#tarotPic {
+  max-width: 160px !important;
+}
+#couplePic {
+  max-width: 220px !important;
+}
+#momentHead{
+  font-size: 220% !important;
+}
+#appointmentCat{
+  font-size: 320%;
+  text-align: center;
+}
+#astroBlock {
+  margin-top: 15% !important;
+  margin-bottom: 18% !important;
+}
+#astroBlock2{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+
   .masthead {
     background-position: 20%;
   }
@@ -781,10 +842,34 @@ a:focus {
   #videoBlock {
     margin-bottom: 12%;
   }
+  #astroBlock {
+    margin-top: 10% !important;
+    margin-bottom: 15% !important;
+  }
+  #astroBlock2{
+    margin-top: 10%;
+    margin-bottom: 12%;
+  }
 
   #bodyBlock {
     margin-top: 3%;
     margin-bottom: 12%;
+  }
+  #astroPic {
+    max-width: 150px !important;
+  }
+  #tarotPic {
+    max-width: 180px !important;
+  }
+  #couplePic {
+    max-width: 240px !important;
+  }
+  #momentHead{
+    font-size: 300% !important;
+  }
+  #appointmentCat{
+    font-size: 340%;
+    text-align: center;
   }
 
 
@@ -881,6 +966,25 @@ a:focus {
   #videoBlock {
     margin-top:3%;
   }
+  #appointmentCat{
+    font-size: 370%;
+    text-align: center;
+  }
+
+  #astroPic {
+    max-width: 170px !important;
+  }
+  #tarotPic {
+    max-width: 200px !important;
+  }
+  #couplePic {
+    max-width: 260px !important;
+  }
+  #momentHead{
+    font-size: 350% !important;
+  }
+  
+
   .masthead4 {
     background-position: 0% 40%;
   }
