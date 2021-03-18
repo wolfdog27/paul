@@ -364,7 +364,14 @@ a:focus {
   #bookingServices {
     font-size: 275% !important;
   }
+  #bookingRequirement{
+    font-size: 275%;
+  }
 
+  #bodyBlock {
+    margin-top: 11%;
+    margin-bottom: 20%;
+  }
 
   .button1 {
     font-size: 1.5rem;
@@ -399,13 +406,16 @@ a:focus {
 }
 #aboutBlock {
   margin-top: 20% !important;
-  
+  margin-bottom: 10% !important;
 }
 #lightBoxBlock {
   margin-bottom: 20%;
   margin-top: 15% !important;
 }
-
+#onlyBlock {
+  margin-top: 20% !important;
+  margin-bottom: 20% !important;
+}
 
   #schedule {
     font-size: x-large !important;
@@ -575,6 +585,20 @@ a:focus {
   margin-bottom: 20%;
 }
 
+#bookingRequirement{
+  font-size: 300%;
+}
+
+#bodyBlock {
+  margin-top: 11%;
+  margin-bottom: 20%;
+}
+
+#onlyBlock {
+  margin-top: 20% !important;
+  margin-bottom: 20% !important;
+}
+
   #intuitive {
     font-size: 150%;
   }
@@ -640,6 +664,9 @@ a:focus {
     font-size: 350% !important;
     margin-bottom: 5%;
   }
+  #bookingRequirement{
+    font-size: 350%;
+  }
  
   .button1 {
     color: white;
@@ -670,11 +697,15 @@ a:focus {
   font-size: 275%;
 }
 #aboutBlock {
-  margin-top: 15% !important;
+  margin-top: 12% !important;
 }
 #lightBoxBlock {
   margin-top: 12%;
   margin-bottom: 15%;
+}
+#onlyBlock {
+  margin-top: 12% !important;
+  margin-bottom: 12% !important;
 }
 
   .masthead {
@@ -752,6 +783,11 @@ a:focus {
     margin-bottom: 12%;
   }
 
+  #bodyBlock {
+    margin-top: 3%;
+    margin-bottom: 12%;
+  }
+
 
   .masthead {
     background-position: 20%;
@@ -771,6 +807,10 @@ a:focus {
   }
   #follow {
     margin-top: 5%;
+  }
+  #onlyBlock {
+    margin-top: 12% !important;
+    margin-bottom: 10% !important;
   }
 
 
@@ -862,6 +902,10 @@ a:focus {
  }
   #punch {
     margin-left: -11%;
+  }
+  #bodyBlock {
+    margin-top: 2%;
+    margin-bottom: 7%;
   }
 }
 
