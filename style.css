@@ -369,6 +369,9 @@ a:focus {
   .masthead4 {
     background-position: 50%;
   }
+  .masthead7 {
+    background-position: 28%;
+  }
   #bookingServices {
     font-size: 275% !important;
   }
@@ -576,6 +579,9 @@ a:focus {
   }
   .masthead3 {
     background-position: 10%;
+  }
+  .masthead7 {
+    background-position: 22%;
   }
   #bookingServices {
     font-size: 300% !important;
@@ -808,6 +814,9 @@ a:focus {
   }
   .masthead3 {
     background-position: 0%;
+  }
+  .masthead7 {
+    background-position: 20%;
   }
   .button1 {
     margin: 2em;
