@@ -206,6 +206,14 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
+.masthead7 {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('assets/paulcover2.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 #space {
