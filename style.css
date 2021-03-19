@@ -434,6 +434,15 @@ a:focus {
   margin-top: 20%;
   margin-bottom: 18%;
 }
+#astroPic{
+  max-height: 170px !important;
+}
+#tarotPic{
+  max-height: 200px !important;
+}
+#couplePic {
+  max-height: 150px !important;
+}
 
 
   #schedule {
@@ -634,6 +643,16 @@ a:focus {
   margin-bottom: 18%;
 }
 
+#astroPic{
+  max-height: 190px !important;
+}
+#tarotPic{
+  max-height: 220px !important;
+}
+#couplePic {
+  max-height: 170px !important;
+}
+
 #momentHead{
   font-size: 220% !important;
 }
@@ -765,6 +784,15 @@ a:focus {
   margin-top: 15%;
   margin-bottom: 15%;
 }
+#astroPic{
+  max-height: 120px !important;
+}
+#tarotPic{
+  max-height: 180px !important;
+}
+#couplePic {
+  max-height: 120px !important;
+}
 
 
   .masthead {
@@ -865,6 +893,15 @@ a:focus {
   }
   #faq {
     font-size: 330% !important;
+  }
+  #astroPic{
+    max-height: 150px !important;
+  }
+  #tarotPic{
+    max-height: 200px !important;
+  }
+  #couplePic {
+    max-height: 130px !important;
   }
 
 
@@ -971,6 +1008,15 @@ a:focus {
   }
   #faq {
     font-size: 330% !important;
+  }
+  #astroPic{
+    max-height: 170px !important;
+  }
+  #tarotPic{
+    max-height: 220px !important;
+  }
+  #couplePic {
+    max-height: 150px !important;
   }
   
 
