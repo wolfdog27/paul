@@ -458,6 +458,9 @@ a:focus {
 #couplePic {
   max-height: 150px !important;
 }
+#zodiacBox {
+  font-size: 200%;
+}
 
 
   #schedule {
@@ -961,6 +964,9 @@ a:focus {
     margin-top: 12% !important;
     margin-bottom: 10% !important;
   }
+  #zodiacBox {
+    font-size: 240% !important;
+  }
 
 
   #knowMe {
@@ -1038,6 +1044,9 @@ a:focus {
   #upcomingWork {
     text-align: center;
     font-size: 350%;
+  }
+  #zodiacBox {
+    font-size: 250% !important;
   }
 
   #momentHead{
