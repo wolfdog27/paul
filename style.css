@@ -432,6 +432,10 @@ a:focus {
   font-size: 290%;
   text-align: center;
 }
+#upcomingWork {
+  text-align: center;
+  font-size: 290%;
+}
 
 #momentHead{
   font-size: 290% !important;
@@ -644,6 +648,10 @@ a:focus {
   font-size: 260%;
   text-align: center;
 }
+#upcomingWork {
+  text-align: center;
+  font-size: 290%;
+}
 #momentHead{
   font-size: 340% !important;
 }
@@ -787,6 +795,10 @@ a:focus {
   font-size: 320%;
   text-align: center;
 }
+#upcomingWork {
+  text-align: center;
+  font-size: 320%;
+}
 #faq{
   font-size: 300% !important;
 }
@@ -908,6 +920,10 @@ a:focus {
     font-size: 340%;
     text-align: center;
   }
+  #upcomingWork {
+    text-align: center;
+    font-size: 340%;
+  }
   #faq {
     font-size: 330% !important;
   }
@@ -1018,6 +1034,10 @@ a:focus {
   #appointmentCat{
     font-size: 350%;
     text-align: center;
+  }
+  #upcomingWork {
+    text-align: center;
+    font-size: 350%;
   }
 
   #momentHead{
