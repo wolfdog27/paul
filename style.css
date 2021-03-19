@@ -633,6 +633,21 @@ a:focus {
   margin-top: 20%;
   margin-bottom: 18%;
 }
+#astroPic {
+  max-height: 160px !important;
+  max-width: 130px !important;
+}
+#tarotPic {
+  max-height: 300px !important;
+  max-width: 160px !important;
+}
+#couplePic {
+  max-height: 100px !important;
+  max-width: 220px !important;
+}
+#momentHead{
+  font-size: 220% !important;
+}
 
   #intuitive {
     font-size: 150%;
