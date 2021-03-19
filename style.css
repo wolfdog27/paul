@@ -461,6 +461,9 @@ a:focus {
 #zodiacBox {
   font-size: 200%;
 }
+#elevenSmall {
+  font-size: 250% !important;
+}
 
 
   #schedule {
@@ -822,7 +825,12 @@ a:focus {
 #couplePic {
   max-height: 120px !important;
 }
-
+#elevenBig{
+  font-size: 200% !important;
+}
+#elevenP {
+  font-size: 100% !important;
+}
 
   .masthead {
     background-position: 20%;
@@ -913,6 +921,12 @@ a:focus {
   #bodyBlock {
     margin-top: 3%;
     margin-bottom: 12%;
+  }
+  #elevenBig{
+    font-size: 250% !important;
+  }
+  #elevenP {
+    font-size: 110% !important;
   }
 
 
@@ -1064,7 +1078,9 @@ a:focus {
   #couplePic {
     max-height: 150px !important;
   }
-  
+  #elevenBig{
+    font-size: 300% !important;
+  }
 
   .masthead4 {
     background-position: 0% 40%;
