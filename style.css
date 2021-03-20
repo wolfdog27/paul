@@ -487,10 +487,10 @@ a:focus {
   max-height: 200px !important;
 }
 #couplePic {
-  max-height: 150px !important;
+  max-height: 160px !important;
 }
 #zodiacBox {
-  font-size: 200%;
+  font-size: 150% !important;
 }
 #elevenSmall {
   font-size: 250% !important;
