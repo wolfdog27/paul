@@ -561,6 +561,12 @@ a:focus {
  #message2 {
    font-size: 85%;
  }
+ #elevenP {
+  font-size: 120% !important;
+}
+#elevenLi {
+  font-size: 100% !important;
+}
 
 
 }
@@ -648,6 +654,12 @@ a:focus {
 #onlyBlock {
   margin-top: 20% !important;
   margin-bottom: 20% !important;
+}
+#elevenP {
+  font-size: 120% !important;
+}
+#elevenLi {
+  font-size: 100% !important;
 }
 
 #appointmentCat{
@@ -831,6 +843,9 @@ a:focus {
 #elevenP {
   font-size: 100% !important;
 }
+#elevenLi {
+  font-size: 100% !important;
+}
 
   .masthead {
     background-position: 20%;
@@ -927,6 +942,9 @@ a:focus {
   }
   #elevenP {
     font-size: 110% !important;
+  }
+  #elevenLi {
+    font-size: 100% !important;
   }
 
 
@@ -1106,6 +1124,12 @@ a:focus {
   #bodyBlock {
     margin-top: 2%;
     margin-bottom: 7%;
+  }
+  #elevenP {
+    font-size: 110% !important;
+  }
+  #elevenLi {
+    font-size: 100% !important;
   }
   
 }
