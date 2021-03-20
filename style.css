@@ -38,6 +38,29 @@ li {
   color: white;
 }
 
+#emailBtn5 {
+  display: block;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border: black 3px solid;
+  background-color: transparent;
+  color: black;
+  font-size: larger;
+  border-radius: 2%;
+}
+
+
+#emailBtn5:hover {
+  text-decoration: none;
+  border: black 3px solid;
+  background-color: #ff00b4;
+  color: white;
+}
+
 #zodiacBtn {
   display: block;
   margin-top: 5%;
@@ -577,6 +600,16 @@ a:focus {
 #emailBtn:hover {
   font-size: 90%;
 }
+#zodiacHead {
+  font-size: 250%;
+}
+#sunPic{
+  max-width: 250px !important;
+}
+#emailBtn5 {
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+}
 
 }
 
@@ -713,6 +746,16 @@ a:focus {
 
 #emailBtn:hover {
   font-size: 110%;
+}
+#zodiacHead {
+  font-size: 350%;
+}
+#sunPic{
+  max-width: 250px !important;
+}
+#emailBtn5 {
+  padding-left: 200px !important;
+  padding-right: 200px !important;
 }
 
   #intuitive {
@@ -1085,6 +1128,12 @@ a:focus {
  #message2 {
    font-size: 140%;
  }
+ #zodiacHead {
+  font-size: 250% !important;
+}
+#zodiacP {
+  font-size: 110% !important;
+}
 }
 
 @media (min-width: 1200px) {
@@ -1168,6 +1217,12 @@ a:focus {
   }
   #elevenLi {
     font-size: 100% !important;
+  }
+  #zodiacHead {
+    font-size: 300% !important;
+  }
+  #zodiacP {
+    font-size: 110% !important;
   }
   #sunPic {
     max-width: 200px !important;
