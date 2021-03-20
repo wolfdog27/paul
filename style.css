@@ -610,6 +610,9 @@ a:focus {
   padding-left: 150px !important;
   padding-right: 150px !important;
 }
+#zodiacLine{
+  margin-bottom: 15% !important;
+}
 
 }
 
@@ -797,6 +800,9 @@ a:focus {
  #message2 {
    font-size: 95%;
  }
+ #zodiacLine{
+  margin-bottom: 15% !important;
+}
 
 }
 
@@ -926,6 +932,9 @@ a:focus {
 }
 #sunPic {
   max-width: 150px !important;
+}
+#zodiacLine{
+  margin-bottom: 10% !important;
 }
 
 
