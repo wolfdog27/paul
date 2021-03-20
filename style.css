@@ -601,10 +601,10 @@ a:focus {
   font-size: 90%;
 }
 #zodiacHead {
-  font-size: 250%;
+  font-size: 240%;
 }
 #sunPic{
-  max-height: 250px !important;
+  max-height: 200px !important;
 }
 #emailBtn5 {
   padding-left: 150px !important;
@@ -754,7 +754,7 @@ a:focus {
   font-size: 350%;
 }
 #sunPic{
-  max-height: 250px !important;
+  max-height: 200px !important;
 }
 #emailBtn5 {
   padding-left: 200px !important;
