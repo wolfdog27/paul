@@ -1169,6 +1169,13 @@ a:focus {
   #elevenLi {
     font-size: 100% !important;
   }
+  #sunPic {
+    max-width: 200px !important;
+  }
+  #emailBtn {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+  }
   
 }
 
