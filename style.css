@@ -567,7 +567,13 @@ a:focus {
 #elevenLi {
   font-size: 100% !important;
 }
+#emailBtn {
+  font-size: 90%;
+}
 
+#emailBtn:hover {
+  font-size: 90%;
+}
 
 }
 
@@ -697,6 +703,15 @@ a:focus {
   font-size: 220% !important;
 }
 
+#emailBtn {
+  font-size: 110%;
+}
+
+
+#emailBtn:hover {
+  font-size: 110%;
+}
+
   #intuitive {
     font-size: 150%;
   }
@@ -804,6 +819,13 @@ a:focus {
 #onlyBlock {
   margin-top: 12% !important;
   margin-bottom: 12% !important;
+}
+#emailBtn {
+  font-size: larger;
+}
+
+#emailBtn:hover {
+  font-size: larger;
 }
 
 #momentHead{
