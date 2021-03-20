@@ -366,6 +366,7 @@ a:focus {
   background-color: white !important;
 }
 
+/* X-SMALL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (max-width: 575px) {
   body {
     background: white;
@@ -616,9 +617,10 @@ a:focus {
 
 }
 
+/* SMALL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 576px) {
   body {
-    background: blue;
+    background:white;
   }
   #gFont {
     font-size: 2em;
@@ -805,10 +807,10 @@ a:focus {
 }
 
 }
-
+/* MEDIUM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 768px) {
   body {
-    background: red;
+    background: white;
   }
   #gFont {
     font-size: 2.5em;
@@ -990,9 +992,10 @@ a:focus {
 }
 }
 
+/* LARGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 992px) {
   body {
-    background: yellow;
+    background: white;
   }
   nav {
     padding-top: 2em !important;
@@ -1154,6 +1157,7 @@ a:focus {
 }
 }
 
+/* X-LARGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 1200px) {
   body {
     background: white;
