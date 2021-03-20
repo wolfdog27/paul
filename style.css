@@ -604,7 +604,7 @@ a:focus {
   font-size: 250%;
 }
 #sunPic{
-  max-width: 250px !important;
+  max-height: 250px !important;
 }
 #emailBtn5 {
   padding-left: 150px !important;
@@ -754,7 +754,7 @@ a:focus {
   font-size: 350%;
 }
 #sunPic{
-  max-width: 250px !important;
+  max-height: 250px !important;
 }
 #emailBtn5 {
   padding-left: 200px !important;
@@ -931,7 +931,7 @@ a:focus {
   font-size: 100% !important;
 }
 #sunPic {
-  max-width: 150px !important;
+  max-height: 150px !important;
 }
 #zodiacLine{
   margin-bottom: 10% !important;
@@ -1243,7 +1243,7 @@ a:focus {
     font-size: 110% !important;
   }
   #sunPic {
-    max-width: 200px !important;
+    max-height: 200px !important;
   }
   #emailBtn {
     padding-right: 100px !important;
