@@ -875,6 +875,7 @@ a:focus {
 }
 #elevenPic {
   max-height: 505px !important;
+  max-width: 350px !important;
 }
 
 #momentHead{
@@ -974,6 +975,10 @@ a:focus {
  #message2 {
    font-size: 130%;
  }
+ #elevenPic {
+  max-height: 280px !important;
+  max-width: 200px !important;
+}
 }
 
 @media (min-width: 992px) {
@@ -1133,6 +1138,10 @@ a:focus {
 }
 #zodiacP {
   font-size: 110% !important;
+}
+#elevenPic {
+  max-height: 410px !important;
+  max-width: 290px !important;
 }
 }
 
