@@ -616,6 +616,11 @@ a:focus {
   padding-right: 110px !important;
 }
 #zodiacLine{
+  margin-top: 15% !important;
+  margin-bottom: 20% !important;
+}
+#zodiacLine2{
+  margin-top: 15% !important;
   margin-bottom: 15% !important;
 }
 
@@ -806,8 +811,14 @@ a:focus {
  #message2 {
    font-size: 95%;
  }
- #zodiacLine{
-  margin-bottom: 15% !important;
+
+#zodiacLine{
+  margin-top: 15% !important;
+  margin-bottom: 20% !important;
+}
+#zodiacLine2{
+  margin-top: 15% !important;
+  margin-bottom: 10% !important;
 }
 
 }
@@ -940,7 +951,12 @@ a:focus {
   max-height: 150px !important;
 }
 #zodiacLine{
-  margin-bottom: 10% !important;
+  margin-top: 15% !important;
+  margin-bottom: 15% !important;
+}
+#zodiacLine2{
+  margin-top: 15% !important;
+  margin-bottom: 15% !important;
 }
 
 
@@ -1158,6 +1174,14 @@ a:focus {
 #elevenPic {
   max-height: 410px !important;
   max-width: 290px !important;
+}
+#zodiacLine{
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
+}
+#zodiacLine2{
+  margin-top: 10% !important;
+  margin-bottom: 10% !important;
 }
 }
 
