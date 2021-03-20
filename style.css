@@ -436,6 +436,9 @@ a:focus {
   text-align: center;
   font-size: 290%;
 }
+#elevenPic {
+  max-height: 505px !important;
+}
 
 #momentHead{
   font-size: 290% !important;
@@ -826,6 +829,9 @@ a:focus {
 
 #emailBtn:hover {
   font-size: larger;
+}
+#elevenPic {
+  max-height: 505px !important;
 }
 
 #momentHead{
