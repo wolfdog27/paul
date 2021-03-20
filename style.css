@@ -471,10 +471,14 @@ a:focus {
 #astroBlock {
   margin-top: 10% !important;
   margin-bottom: 18% !important;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #astroBlock2{
   margin-top: 20%;
   margin-bottom: 18%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #astroPic{
   max-height: 170px !important;
