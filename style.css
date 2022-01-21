@@ -1010,6 +1010,10 @@ a:focus {
   max-height: 280px !important;
   max-width: 200px !important;
 }
+#elevenPic2 {
+  max-height: 280px !important;
+  max-width: 280px !important;
+}
 }
 
 /* LARGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -1182,6 +1186,10 @@ a:focus {
 #zodiacLine2{
   margin-top: 10% !important;
   margin-bottom: 10% !important;
+}
+#elevenPic2 {
+  max-height: 410px !important;
+  max-width: 4500px !important;
 }
 }
 
