@@ -439,6 +439,9 @@ a:focus {
 #knowMe {
   font-size: 275%;
 }
+#knowMe2 {
+  font-size: 200%;
+}
 #aboutBlock {
   margin-top: 20% !important;
   margin-bottom: 10% !important;
@@ -691,6 +694,9 @@ a:focus {
 #knowMe {
   font-size: 275%;
 }
+#knowMe2 {
+  font-size: 230%;
+}
 #aboutBlock {
   margin-top: 20% !important;
 }
@@ -876,6 +882,9 @@ a:focus {
  }
 
  #knowMe {
+  font-size: 275%;
+}
+#knowMe2 {
   font-size: 275%;
 }
 #aboutBlock {
