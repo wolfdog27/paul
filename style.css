@@ -8,7 +8,7 @@ strong {
 
 #intuitive {
   font-family: 'Cabin', sans-serif;
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 li {
@@ -29,7 +29,6 @@ li {
   font-size: larger;
   border-radius: 2%;
 }
-
 
 #emailBtn:hover {
   text-decoration: none;
@@ -52,7 +51,6 @@ li {
   font-size: larger;
   border-radius: 2%;
 }
-
 
 #emailBtn5:hover {
   text-decoration: none;
@@ -80,35 +78,34 @@ li {
   color: white;
 }
 
-
-#button1{
-  background-color: #004556!important;
+#button1 {
+  background-color: #004556 !important;
   color: white;
 }
-#button1:hover{
+#button1:hover {
   background-color: #012028 !important;
 }
 
-#button2{
+#button2 {
   background-color: rgb(56, 56, 56) !important;
   color: white;
 }
-#button2:hover{
+#button2:hover {
   background-color: rgb(12, 12, 12) !important;
 }
 
-#button3{
+#button3 {
   background-color: rgb(77, 0, 154) !important;
   color: white;
 }
-#button3:hover{
+#button3:hover {
   background-color: rgb(34, 2, 63) !important;
 }
 
 #serviceInfo {
   margin-left: 8%;
   margin-right: 8%;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
 
 .container2 {
@@ -173,7 +170,6 @@ a:focus {
   background-position: 50% 5%;
   border-radius: 10px;
   padding: 5%;
-          
 }
 
 .masthead {
@@ -237,7 +233,6 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 #space {
   background-image: url('assets/space.jpeg');
@@ -308,6 +303,9 @@ a:focus {
 .fa-twitter:hover {
   color: #ff00b4 !important;
 }
+.fa-soundcloud:hover {
+  color: #ff00b4 !important;
+}
 
 .containerFans {
   width: 100%;
@@ -375,13 +373,13 @@ a:focus {
     font-size: 2em;
   }
   nav {
-    padding-top: .25em !important;
+    padding-top: 0.25em !important;
     padding-right: 1em !important;
     padding-bottom: 0em !important;
-    padding-left: .25em !important;
+    padding-left: 0.25em !important;
   }
   .masthead {
-    background-position: 20% ;
+    background-position: 20%;
   }
   .masthead2 {
     background-position: 50%;
@@ -399,7 +397,7 @@ a:focus {
   #bookingServices {
     font-size: 275% !important;
   }
-  #bookingRequirement{
+  #bookingRequirement {
     font-size: 275%;
   }
 
@@ -415,90 +413,89 @@ a:focus {
   }
   #button1 {
     margin-bottom: 5%;
-}
+  }
 
-#button2 {
-  margin-bottom: 5%;
-}
-#button3{
-  margin-bottom: 7%;
-}
-#hello2 {
-  margin-top: 4% !important;
-}
-#patreon3 {
-  margin-bottom: 5%;
-}
-#follow {
-  margin-top: 10%;
-}
-.patreonBlock {
-  margin-top: 18% !important;
-}
+  #button2 {
+    margin-bottom: 5%;
+  }
+  #button3 {
+    margin-bottom: 7%;
+  }
+  #hello2 {
+    margin-top: 4% !important;
+  }
+  #patreon3 {
+    margin-bottom: 5%;
+  }
+  #follow {
+    margin-top: 10%;
+  }
+  .patreonBlock {
+    margin-top: 18% !important;
+  }
 
-#knowMe {
-  font-size: 275%;
-}
-#knowMe2 {
-  font-size: 200%;
-}
-#aboutBlock {
-  margin-top: 20% !important;
-  margin-bottom: 10% !important;
-}
-#lightBoxBlock {
-  margin-bottom: 20%;
-  margin-top: 15% !important;
-}
-#onlyBlock {
-  margin-top: 20% !important;
-  margin-bottom: 20% !important;
-}
+  #knowMe {
+    font-size: 275%;
+  }
+  #knowMe2 {
+    font-size: 200%;
+  }
+  #aboutBlock {
+    margin-top: 20% !important;
+    margin-bottom: 10% !important;
+  }
+  #lightBoxBlock {
+    margin-bottom: 20%;
+    margin-top: 15% !important;
+  }
+  #onlyBlock {
+    margin-top: 20% !important;
+    margin-bottom: 20% !important;
+  }
 
-#appointmentCat{
-  font-size: 290%;
-  text-align: center;
-}
-#upcomingWork {
-  text-align: center;
-  font-size: 290%;
-}
-#elevenPic {
-  max-height: 505px !important;
-}
+  #appointmentCat {
+    font-size: 290%;
+    text-align: center;
+  }
+  #upcomingWork {
+    text-align: center;
+    font-size: 290%;
+  }
+  #elevenPic {
+    max-height: 505px !important;
+  }
 
-#momentHead{
-  font-size: 290% !important;
-}
+  #momentHead {
+    font-size: 290% !important;
+  }
 
-#astroBlock {
-  margin-top: 10% !important;
-  margin-bottom: 18% !important;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#astroBlock2{
-  margin-top: 20%;
-  margin-bottom: 18%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#astroPic{
-  max-height: 170px !important;
-}
-#tarotPic{
-  max-height: 200px !important;
-}
-#couplePic {
-  max-height: 160px !important;
-}
-#zodiacBox {
-  font-size: 150% !important;
-}
-#elevenSmall {
-  font-size: 250% !important;
-}
-
+  #astroBlock {
+    margin-top: 10% !important;
+    margin-bottom: 18% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #astroBlock2 {
+    margin-top: 20%;
+    margin-bottom: 18%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #astroPic {
+    max-height: 170px !important;
+  }
+  #tarotPic {
+    max-height: 200px !important;
+  }
+  #couplePic {
+    max-height: 160px !important;
+  }
+  #zodiacBox {
+    font-size: 150% !important;
+  }
+  #elevenSmall {
+    font-size: 250% !important;
+  }
 
   #schedule {
     font-size: x-large !important;
@@ -530,7 +527,6 @@ a:focus {
 
   #intuitive {
     font-size: 150%;
-
   }
   #intuitive2 {
     justify-content: center !important;
@@ -589,59 +585,58 @@ a:focus {
     margin-top: 10% !important;
     margin-bottom: 0em;
   }
- #love5 {
-   font-size: 100%;
- }
- #message2 {
-   font-size: 85%;
- }
- #elevenP {
-  font-size: 120% !important;
-}
-#elevenLi {
-  font-size: 100% !important;
-}
-#emailBtn {
-  font-size: 90%;
-}
+  #love5 {
+    font-size: 100%;
+  }
+  #message2 {
+    font-size: 85%;
+  }
+  #elevenP {
+    font-size: 120% !important;
+  }
+  #elevenLi {
+    font-size: 100% !important;
+  }
+  #emailBtn {
+    font-size: 90%;
+  }
 
-#emailBtn:hover {
-  font-size: 90%;
-}
-#zodiacHead {
-  font-size: 250%;
-}
-#sunPic{
-  max-height: 200px !important;
-}
-#emailBtn5 {
-  padding-left: 110px !important;
-  padding-right: 110px !important;
-}
-#zodiacLine{
-  margin-top: 15% !important;
-  margin-bottom: 20% !important;
-}
-#zodiacLine2{
-  margin-top: 15% !important;
-  margin-bottom: 15% !important;
-}
-
+  #emailBtn:hover {
+    font-size: 90%;
+  }
+  #zodiacHead {
+    font-size: 250%;
+  }
+  #sunPic {
+    max-height: 200px !important;
+  }
+  #emailBtn5 {
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+  #zodiacLine {
+    margin-top: 15% !important;
+    margin-bottom: 20% !important;
+  }
+  #zodiacLine2 {
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+  }
 }
 
 /* SMALL !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 576px) {
   body {
-    background:white;
+    background: white;
   }
   #gFont {
     font-size: 2em;
   }
   nav {
-    padding-top: .25em !important;
+    padding-top: 0.25em !important;
     padding-right: 1em !important;
     padding-bottom: 0em !important;
-    padding-left: .25em !important;
+    padding-left: 0.25em !important;
   }
   #hamburger {
     color: black;
@@ -669,114 +664,114 @@ a:focus {
   }
   #button1 {
     margin-bottom: 10%;
-}
+  }
 
-#button2 {
-  margin-bottom: 10%;
-}
-#button3 {
-  margin-bottom: 7%;
-}
-#patreon3 {
-  margin-bottom: 5%;
-}
-#follow {
-  margin-top: 10%;
-}
-.patreonBlock {
-  margin-top: 18% !important;
-}
-#videoBlock{
-  margin-bottom: 15%;
-  margin-top: 5%;
-}
+  #button2 {
+    margin-bottom: 10%;
+  }
+  #button3 {
+    margin-bottom: 7%;
+  }
+  #patreon3 {
+    margin-bottom: 5%;
+  }
+  #follow {
+    margin-top: 10%;
+  }
+  .patreonBlock {
+    margin-top: 18% !important;
+  }
+  #videoBlock {
+    margin-bottom: 15%;
+    margin-top: 5%;
+  }
 
-#knowMe {
-  font-size: 275%;
-}
-#knowMe2 {
-  font-size: 230%;
-}
-#aboutBlock {
-  margin-top: 20% !important;
-}
-#lightBoxBlock {
-  margin-top: 15%;
-  margin-bottom: 20%;
-}
+  #knowMe {
+    font-size: 275%;
+  }
+  #knowMe2 {
+    font-size: 230%;
+  }
+  #aboutBlock {
+    margin-top: 20% !important;
+  }
+  #lightBoxBlock {
+    margin-top: 15%;
+    margin-bottom: 20%;
+  }
 
-#bookingRequirement{
-  font-size: 300%;
-}
+  #bookingRequirement {
+    font-size: 300%;
+  }
 
-#bodyBlock {
-  margin-top: 11%;
-  margin-bottom: 15%;}
+  #bodyBlock {
+    margin-top: 11%;
+    margin-bottom: 15%;
+  }
 
-#onlyBlock {
-  margin-top: 20% !important;
-  margin-bottom: 20% !important;
-}
-#elevenP {
-  font-size: 120% !important;
-}
-#elevenLi {
-  font-size: 100% !important;
-}
+  #onlyBlock {
+    margin-top: 20% !important;
+    margin-bottom: 20% !important;
+  }
+  #elevenP {
+    font-size: 120% !important;
+  }
+  #elevenLi {
+    font-size: 100% !important;
+  }
 
-#appointmentCat{
-  font-size: 260%;
-  text-align: center;
-}
-#upcomingWork {
-  text-align: center;
-  font-size: 290%;
-}
-#momentHead{
-  font-size: 340% !important;
-}
+  #appointmentCat {
+    font-size: 260%;
+    text-align: center;
+  }
+  #upcomingWork {
+    text-align: center;
+    font-size: 290%;
+  }
+  #momentHead {
+    font-size: 340% !important;
+  }
 
-#astroBlock {
-  margin-top: 10% !important;
-  margin-bottom: 18% !important;
-}
-#astroBlock2{
-  margin-top: 20%;
-  margin-bottom: 18%;
-}
+  #astroBlock {
+    margin-top: 10% !important;
+    margin-bottom: 18% !important;
+  }
+  #astroBlock2 {
+    margin-top: 20%;
+    margin-bottom: 18%;
+  }
 
-#astroPic{
-  max-height: 190px !important;
-}
-#tarotPic{
-  max-height: 220px !important;
-}
-#couplePic {
-  max-height: 170px !important;
-}
+  #astroPic {
+    max-height: 190px !important;
+  }
+  #tarotPic {
+    max-height: 220px !important;
+  }
+  #couplePic {
+    max-height: 170px !important;
+  }
 
-#momentHead{
-  font-size: 220% !important;
-}
+  #momentHead {
+    font-size: 220% !important;
+  }
 
-#emailBtn {
-  font-size: 110%;
-}
+  #emailBtn {
+    font-size: 110%;
+  }
 
-
-#emailBtn:hover {
-  font-size: 110%;
-}
-#zodiacHead {
-  font-size: 350%;
-}
-#sunPic{
-  max-height: 200px !important;
-}
-#emailBtn5 {
-  padding-left: 200px !important;
-  padding-right: 200px !important;
-}
+  #emailBtn:hover {
+    font-size: 110%;
+  }
+  #zodiacHead {
+    font-size: 350%;
+  }
+  #sunPic {
+    max-height: 200px !important;
+  }
+  #emailBtn5 {
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
 
   #intuitive {
     font-size: 150%;
@@ -811,22 +806,21 @@ a:focus {
     margin-top: 10% !important;
     margin-bottom: 0em;
   }
- #love5 {
-   font-size: 125%;
- }
- #message2 {
-   font-size: 95%;
- }
+  #love5 {
+    font-size: 125%;
+  }
+  #message2 {
+    font-size: 95%;
+  }
 
-#zodiacLine{
-  margin-top: 15% !important;
-  margin-bottom: 20% !important;
-}
-#zodiacLine2{
-  margin-top: 15% !important;
-  margin-bottom: 10% !important;
-}
-
+  #zodiacLine {
+    margin-top: 15% !important;
+    margin-bottom: 20% !important;
+  }
+  #zodiacLine2 {
+    margin-top: 15% !important;
+    margin-bottom: 10% !important;
+  }
 }
 /* MEDIUM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media (min-width: 768px) {
@@ -837,10 +831,10 @@ a:focus {
     font-size: 2.5em;
   }
   nav {
-    padding-top: .25em !important;
+    padding-top: 0.25em !important;
     padding-right: 2em !important;
     padding-bottom: 0em !important;
-    padding-left: .25em !important;
+    padding-left: 0.25em !important;
   }
   #hamburger {
     color: black;
@@ -852,10 +846,10 @@ a:focus {
     font-size: 350% !important;
     margin-bottom: 5%;
   }
-  #bookingRequirement{
+  #bookingRequirement {
     font-size: 350%;
   }
- 
+
   .button1 {
     color: white;
     font-size: 1.5rem !important;
@@ -865,7 +859,7 @@ a:focus {
     padding: 2em !important;
   }
   #button1 {
-      margin-bottom: 10%;
+    margin-bottom: 10%;
   }
 
   #button2 {
@@ -877,97 +871,96 @@ a:focus {
   #videoBlock {
     margin-bottom: 18%;
   }
- #patreonLine {
-   margin-top: 12%;
- }
+  #patreonLine {
+    margin-top: 12%;
+  }
 
- #knowMe {
-  font-size: 275%;
-}
-#knowMe2 {
-  font-size: 275%;
-}
-#aboutBlock {
-  margin-top: 12% !important;
-}
-#lightBoxBlock {
-  margin-top: 12%;
-  margin-bottom: 15%;
-}
-#onlyBlock {
-  margin-top: 12% !important;
-  margin-bottom: 12% !important;
-}
-#emailBtn {
-  font-size: larger;
-}
+  #knowMe {
+    font-size: 275%;
+  }
+  #knowMe2 {
+    font-size: 275%;
+  }
+  #aboutBlock {
+    margin-top: 12% !important;
+  }
+  #lightBoxBlock {
+    margin-top: 12%;
+    margin-bottom: 15%;
+  }
+  #onlyBlock {
+    margin-top: 12% !important;
+    margin-bottom: 12% !important;
+  }
+  #emailBtn {
+    font-size: larger;
+  }
 
-#emailBtn:hover {
-  font-size: larger;
-}
-#elevenPic {
-  max-height: 505px !important;
-  max-width: 350px !important;
-}
+  #emailBtn:hover {
+    font-size: larger;
+  }
+  #elevenPic {
+    max-height: 505px !important;
+    max-width: 350px !important;
+  }
 
-#momentHead{
-  font-size: 220% !important;
-}
-#appointmentCat{
-  font-size: 320%;
-  text-align: center;
-}
-#upcomingWork {
-  text-align: center;
-  font-size: 320%;
-}
-#faq{
-  font-size: 300% !important;
-}
-#astroBlock {
-  margin-top: 15% !important;
-  margin-bottom: 18% !important;
-}
-#astroBlock2{
-  margin-top: 15%;
-  margin-bottom: 15%;
-}
-#astroPic{
-  max-height: 120px !important;
-}
-#tarotPic{
-  max-height: 180px !important;
-}
-#couplePic {
-  max-height: 120px !important;
-}
-#elevenBig{
-  font-size: 200% !important;
-}
-#elevenP {
-  font-size: 100% !important;
-}
-#elevenLi {
-  font-size: 100% !important;
-}
-#zodiacHead {
-  font-size: 200% !important;
-}
-#zodiacP {
-  font-size: 100% !important;
-}
-#sunPic {
-  max-height: 150px !important;
-}
-#zodiacLine{
-  margin-top: 15% !important;
-  margin-bottom: 15% !important;
-}
-#zodiacLine2{
-  margin-top: 15% !important;
-  margin-bottom: 15% !important;
-}
-
+  #momentHead {
+    font-size: 220% !important;
+  }
+  #appointmentCat {
+    font-size: 320%;
+    text-align: center;
+  }
+  #upcomingWork {
+    text-align: center;
+    font-size: 320%;
+  }
+  #faq {
+    font-size: 300% !important;
+  }
+  #astroBlock {
+    margin-top: 15% !important;
+    margin-bottom: 18% !important;
+  }
+  #astroBlock2 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  #astroPic {
+    max-height: 120px !important;
+  }
+  #tarotPic {
+    max-height: 180px !important;
+  }
+  #couplePic {
+    max-height: 120px !important;
+  }
+  #elevenBig {
+    font-size: 200% !important;
+  }
+  #elevenP {
+    font-size: 100% !important;
+  }
+  #elevenLi {
+    font-size: 100% !important;
+  }
+  #zodiacHead {
+    font-size: 200% !important;
+  }
+  #zodiacP {
+    font-size: 100% !important;
+  }
+  #sunPic {
+    max-height: 150px !important;
+  }
+  #zodiacLine {
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+  }
+  #zodiacLine2 {
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+  }
 
   .masthead {
     background-position: 20%;
@@ -1009,20 +1002,20 @@ a:focus {
     margin-top: 10% !important;
     margin-bottom: 0em;
   }
- #love5 {
-   font-size: 160%;
- }
- #message2 {
-   font-size: 130%;
- }
- #elevenPic {
-  max-height: 280px !important;
-  max-width: 200px !important;
-}
-#elevenPic2 {
-  max-height: 280px !important;
-  max-width: 280px !important;
-}
+  #love5 {
+    font-size: 160%;
+  }
+  #message2 {
+    font-size: 130%;
+  }
+  #elevenPic {
+    max-height: 280px !important;
+    max-width: 200px !important;
+  }
+  #elevenPic2 {
+    max-height: 280px !important;
+    max-width: 280px !important;
+  }
 }
 
 /* LARGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -1059,7 +1052,7 @@ a:focus {
     margin-top: 10% !important;
     margin-bottom: 15% !important;
   }
-  #astroBlock2{
+  #astroBlock2 {
     margin-top: 10%;
     margin-bottom: 12%;
   }
@@ -1068,7 +1061,7 @@ a:focus {
     margin-top: 3%;
     margin-bottom: 12%;
   }
-  #elevenBig{
+  #elevenBig {
     font-size: 250% !important;
   }
   #elevenP {
@@ -1078,11 +1071,10 @@ a:focus {
     font-size: 100% !important;
   }
 
-
-  #momentHead{
+  #momentHead {
     font-size: 300% !important;
   }
-  #appointmentCat{
+  #appointmentCat {
     font-size: 340%;
     text-align: center;
   }
@@ -1093,16 +1085,15 @@ a:focus {
   #faq {
     font-size: 330% !important;
   }
-  #astroPic{
+  #astroPic {
     max-height: 150px !important;
   }
-  #tarotPic{
+  #tarotPic {
     max-height: 200px !important;
   }
   #couplePic {
     max-height: 130px !important;
   }
-
 
   .masthead {
     background-position: 20%;
@@ -1130,7 +1121,6 @@ a:focus {
   #zodiacBox {
     font-size: 240% !important;
   }
-
 
   #knowMe {
     font-size: 475%;
@@ -1172,34 +1162,34 @@ a:focus {
     margin-top: 5% !important;
     margin-bottom: 0em;
   }
- #love5 {
-   font-size: 200%;
- }
- #message2 {
-   font-size: 140%;
- }
- #zodiacHead {
-  font-size: 250% !important;
-}
-#zodiacP {
-  font-size: 110% !important;
-}
-#elevenPic {
-  max-height: 410px !important;
-  max-width: 450px !important;
-}
-#zodiacLine{
-  margin-top: 10% !important;
-  margin-bottom: 10% !important;
-}
-#zodiacLine2{
-  margin-top: 10% !important;
-  margin-bottom: 10% !important;
-}
-#elevenPic2 {
-  max-height: 410px !important;
-  max-width: 4500px !important;
-}
+  #love5 {
+    font-size: 200%;
+  }
+  #message2 {
+    font-size: 140%;
+  }
+  #zodiacHead {
+    font-size: 250% !important;
+  }
+  #zodiacP {
+    font-size: 110% !important;
+  }
+  #elevenPic {
+    max-height: 410px !important;
+    max-width: 450px !important;
+  }
+  #zodiacLine {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+  }
+  #zodiacLine2 {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+  }
+  #elevenPic2 {
+    max-height: 410px !important;
+    max-width: 4500px !important;
+  }
 }
 
 /* X-LARGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -1221,9 +1211,9 @@ a:focus {
     margin-top: 10%;
   }
   #videoBlock {
-    margin-top:3%;
+    margin-top: 3%;
   }
-  #appointmentCat{
+  #appointmentCat {
     font-size: 350%;
     text-align: center;
   }
@@ -1235,22 +1225,22 @@ a:focus {
     font-size: 250% !important;
   }
 
-  #momentHead{
+  #momentHead {
     font-size: 330% !important;
   }
   #faq {
     font-size: 330% !important;
   }
-  #astroPic{
+  #astroPic {
     max-height: 170px !important;
   }
-  #tarotPic{
+  #tarotPic {
     max-height: 220px !important;
   }
   #couplePic {
     max-height: 150px !important;
   }
-  #elevenBig{
+  #elevenBig {
     font-size: 300% !important;
   }
 
@@ -1266,12 +1256,12 @@ a:focus {
     margin-top: 5% !important;
     margin-bottom: 0em;
   }
- #love5 {
-   font-size: 220%;
- }
- #message2 {
-   font-size: 140%;
- }
+  #love5 {
+    font-size: 220%;
+  }
+  #message2 {
+    font-size: 140%;
+  }
   #punch {
     margin-left: -11%;
   }
@@ -1298,7 +1288,6 @@ a:focus {
     padding-right: 100px !important;
     padding-left: 100px !important;
   }
-  
 }
 
 /* .parallax {
